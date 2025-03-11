@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Chestionar</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        .question-container {
+            background-color: #333;
+            border: 3px solid #f4d03f; /* yellow border */
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 700px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-size: 1.5em;
+            color: #f4d03f; /* Yellow for the label */
+        }
+        input {
+            background-color: #444;
+            color: white;
+            border: 2px solid #f4d03f;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+            margin-top: 5px;
+            font-size: 1.2em;
+        }
+        input:focus {
+            border-radius: #e67e22; /* Orange color at focus */
+            outline: none;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        button {
+            background-color: #f4d03f;
+            color: black;
+            font-size: 1.5em;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0,3s;
+        }
+        button:hover {
+            background-color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Chestionarul Scolii</h2>
+
+    <form action="https://formspree.io/f/mwkjnjqq" method="POST">
+
+    <div class="question-container">
+        <label for="Intrebarea1">1. Cum percepi relatia ta cu colegii?</label>
+        <input type="text" id="Intrebarea1" name="Intrebarea1">
+        
+        <label for="Intrebarea2">2. Ce parere ai in legatura cu manualele si materialele educationale? De ce?</label>
+        <input type="text" id="Intrebarea2" name="Intrebarea2">
+        
+        <label for="Intrebarea3">3. Ai observat cazuri de abandon școlar în rândul colegilor tăi? Care?</label>
+        <input type="text" id="Intrebarea3" name="Intrebarea3">
+
+        <label for="Intrebarea4">4.  Ce privilegii ai în legătură cu evaluările și notele primite?</label>
+        <input type="text" id="Intrebarea4" name="Intrebarea4">
+        
+        <label for="Intrebarea5">5. Ai întâmpinat dificultăți în înțelegerea sau aplicarea regulilor școlare? Care?</label>
+        <input type="text" id="Intrebarea5" name="Intrebarea5">
+
+        <label for="Intrebarea6">6. Ce parere ai în legătură cu volumul de teme și sarcini școlare?</label>
+        <input type="text" id="Intrebarea6" name="Intrebarea6"> 
+            
+        <label for="Intrebarea7">7. Cum percepi relația ta cu profesorii?</label>
+        <input type="text" id="Intrebarea7" name="Intrebarea7">
+        
+        <label for="Intrebarea8">8. Ai acces la resurse educaționale adecvate?</label>
+        <input type="text" id="Intrebarea8" name="Intrebarea8">
+
+        <label for="Intrebarea9">9. Cum te simți în legătură cu activitățile extracurriculare oferite de școală?</label>
+        <input type="text" id="Intrebarea9" name="Intrebarea9">
+
+        <label for="Intrebarea10">10. Cum putem combate Bullying-ul în școală?</label>
+        <input type="text" id="Intrebarea10" name="Intrebarea10">
+      
+        <div class="button-container">
+            <button type="button">Submit</button>  
+        </div>
+    </div>
+
+</body>
+</html>
